@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Us - Billal Restaurant</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #fefefe;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #00695c;
+      color: white;
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+
+    .content {
+      flex: 1;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .content h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #111;
+    }
+
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about-text {
+      text-align: justify;
+      font-size: 1rem;
+      max-width: 800px;
+      margin-bottom: 30px;
+    }
+
+    .about-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    @media (min-width: 768px) {
+      .about-container {
+        flex-direction: row;
+        gap: 40px;
+        justify-content: space-between;
+      }
+
+      .about-text {
+        flex: 1;
+      }
+
+      .about-image {
+        flex: 1;
+        max-width: 400px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Culinary Journey</h1>
+    <p>Authentic Flavors, Timeless Traditions</p>
+  </header>
+
+  <div class="content">
+    <h2>About Us</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          Billal Restaurant was established in 1995 with the vision of bringing traditional, home-cooked flavors to a wider audience. Born in the heart of Tamil Nadu, our cuisine is deeply rooted in cultural heritage, using age-old family recipes and time-tested cooking techniques.
+        </p>
+        <p>
+          Our dedication to quality and authenticity has earned us a loyal customer base over the years. Every dish we serve is crafted using fresh ingredients, select spices, and a deep respect for regional flavors — whether it's our signature biryani, aromatic curries, or sizzling grills.
+        </p>
+        <p>
+          We believe that food is more than a meal — it is a memory in the making. At Billal Restaurant, we continue to serve our community with warmth, tradition, and a commitment to excellence that makes every visit unforgettable.
+        </p>
+      </div>
+      <img src="images/images.jpg" alt="Billal Restaurant Founder" class="about-image"/>
+    </div>
+  </div>
+
+  <footer>
+    Designed and Developed by Pranav K
+  </footer>
+
+</body>
+</html>
